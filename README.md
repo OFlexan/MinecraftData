@@ -1,13 +1,19 @@
 # Minecraft data
-Contains a collection of usernames from Minecraft players (Java + Bedrock). In the future, this repo will contain conversation data as well.
+Contains a collection of usernames from Minecraft users (Java + Bedrock). In the future, this repo will contain conversation data as well.
 
-# Two versions
-Every username file contains two versions.  
-**Raw**: Includes Bedrock usernames that start with either `.` (new) or `*` (old)  
-**Fixed**: Includes Bedrock usernames that start with `.`, even if the last recorded name started with `*`  
+# Usernames
+Every username file contains three versions.  
+**Raw**: Includes Java and Bedrock usernames. Bedrock usernames start with either `.` (new) or `*` (old)  
+**Fixed**: Includes Java and Bedrock usernames. Bedrock usernames start with `.`, even if the last recorded name started with `*`  
+**UUID**: Includes Java and Bedrock usernames and UUIDs. Bedrock usernames start with `.`, even if the last recorded name started with `*`  
 
-In any case, the fixed version is recommended.
+In any case, the fixed/UUID version is recommended.
 
 # Data files
 [300k+ usernames (raw)](usernames_331283.txt)  
 [300k+ usernames (fixed)](usernames_fixed_331283.txt)  
+[300k+ usernames (UUID)](usernames_uuid_331420.txt)  
+
+# Known issues
+- The UUID versions are slightly different from raw/fixed versions and may exclude some usernames (for reasons unknown)
+- Some names appear double in the UUID versions even though their UUIDs are different because of name changes not being taken into account for some users

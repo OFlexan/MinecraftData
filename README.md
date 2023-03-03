@@ -10,6 +10,9 @@ Every username file contains three versions.
 In any case, the fixed/UUID version is recommended.
 
 # Data files
+[150k+ usernames (raw)](usernames_151633.txt)  
+[150k+ usernames (fixed)](usernames_fixed_151633.txt)  
+[150k+ usernames (UUID)](usernames_uuid_151633.txt)  
 [300k+ usernames (raw)](usernames_331283.txt)  
 [300k+ usernames (fixed)](usernames_fixed_331283.txt)  
 [300k+ usernames (UUID)](usernames_uuid_331420.txt)  
